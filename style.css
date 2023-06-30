@@ -42,9 +42,11 @@
   .side-news-heading{
     color: hsl(35, 77%, 62%);
     padding-top: 20px;
+    padding-left: 20px;
   }
  .side-news-div{
-    padding: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
 }
 
   .side-news-div:nth-child(2){
@@ -53,4 +55,41 @@
 
   .side-news-div:nth-child(3){
     border-bottom: 1px dotted white;
+  }
+
+  .main-heading{
+    color: hsl(240, 100%, 5%) ;
+  }
+
+  .sub-main-text{
+    opacity: 50%;
+  }
+
+  .sub-main-button{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    font-weight: 700;
+  }
+
+  .footer-image{
+    height: 90px;
+    width: 70px;
+  }
+
+  .footer-lead{
+    font-weight: 750;
+    color: hsl(240, 100%, 5%) ;
+  }
+
+ .footer-text{
+    opacity: 50%;
+  }
+
+  .footer-num{
+    font-size: 22px;
+    font-weight: 800;
+    opacity: 30%;
   }
